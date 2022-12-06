@@ -4,6 +4,19 @@ import Link from 'next/link';
 import ContentContainer from './ContentContainer';
 
 const updates = [{
+		date: '2022/05/06',
+		update: (
+			<span>
+				<p>
+					I have overtaken the maintenance of the dashboard.  I'm mostly focusing on keeping the data going.  Specifically the ICU numbers as they are a good indicator of waves.
+				</p>
+				<p>
+					Message me on reddit if you see something broken.  <a href="https://reddit.com/u/asoap" target="_blank">reddit.com/u/asoap</a>
+				</p>
+			</span>
+		)
+	},
+	{
 	date: '2022/11/23',
 	update: (
 		<span>

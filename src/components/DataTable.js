@@ -87,7 +87,7 @@ const BasicTable = ({
 	const classes = useStyles();
 	const [rows, setRows] = useState([]);
 	const [page, setPage] = useState(0);
-	const [rowsPerPage, setRowsPerPage] = useState(4);
+	const [rowsPerPage, setRowsPerPage] = useState(10);
 
 	useEffect(() => {
 		const start = page > 0 ? page + (rowsPerPage - 1) : 0;
@@ -127,7 +127,7 @@ const BasicTable = ({
 				rowsPerPage={rowsPerPage}
 				page={page}
 				count={-1}
-				rowsPerPageOptions={[4, 10, 100]}
+				rowsPerPageOptions={[10, 50, 100]}
 				labelDisplayedRows={() => ''}
 				onChangePage={handlePageChange}
 				onChangeRowsPerPage={e => setRowsPerPage(e.target.value)}

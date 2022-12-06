@@ -2,7 +2,7 @@ import { Fragment } from 'react';
 import getConfig from 'next/config';
 import Head from 'next/head';
 
-import '../styles.css';
+// import '../styles.css';
 
 export default function MyApp({ Component, pageProps }) {
 	const { publicRuntimeConfig } = getConfig();
