@@ -11,7 +11,7 @@ const updates = [{
 					I have overtaken the maintenance of the dashboard.  I'm mostly focusing on keeping the data going.  Specifically the ICU numbers as they are a good indicator of waves.
 				</p>
 				<p>
-					Message me on reddit if you see something broken.  <a href="https://reddit.com/u/asoap" target="_blank">reddit.com/u/asoap</a>
+					Message me on reddit if you see something broken.  <a href="https://reddit.com/u/asoap">reddit.com/u/asoap</a>
 				</p>
 			</span>
 		)
