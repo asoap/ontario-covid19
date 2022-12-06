@@ -4,7 +4,7 @@ import Link from 'next/link';
 import ContentContainer from './ContentContainer';
 
 const updates = [{
-		date: '2022/05/06',
+		date: '2022/12/06',
 		update: (
 			<span>
 				<p>
